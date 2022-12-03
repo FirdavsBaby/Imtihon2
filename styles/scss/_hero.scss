@@ -1,0 +1,468 @@
+
+@media (max-width: $lg) {
+    #main-header {
+        overflow: hidden;
+        position: relative;
+        .rectangle {
+            border-radius: 30%;
+            position: absolute;
+        }
+        .lg-yellow1 {
+            width: 200px;
+            height: 200px;
+            background-color: $light-yellow;
+            z-index: 2;
+            top: -130px;
+            transform: rotate(30deg);
+        }
+        .lg-yellow2 {
+            width: 450px;
+            height: 450px;
+            background-color: $light-yellow;
+            z-index: 2;
+            top: 180px;
+            right: 110px;
+            transform: rotate(30deg);
+        }
+        .lg-blue {
+            width: 400px;
+            height: 400px;
+            background-color: $dark-blue;
+            z-index: 1;
+            top: 170px;
+            right: 180px;
+            transform: rotate(10deg);
+
+        }
+        .sm-blue {
+            width: 20px;
+            height: 20px;
+            background-color: $dark-blue;
+            top: 130px;
+            left: 500px;
+            transform: rotate(35deg);
+            z-index: 2;
+
+        }
+        .md-yellow {
+            width: 40px;
+            height: 40px;
+            background-color: $light-yellow;
+            top: 160px;
+            left: 130px;
+            transform: rotate(30deg);
+        }
+        .sm-yellow {
+            width: 20px;
+            height: 20px;
+            background-color: $light-yellow;
+            transform: rotate(30deg);
+            top: 125px;
+            left: 505px;
+            z-index: 1;
+        }
+        .very-sm-yellow {
+            width: 15px;
+            height: 15px;
+            background-color: $light-yellow;
+            top: 90px;
+            left: 530px;
+            transform: rotate(30deg);
+        }
+         #hero {
+        .container {
+        width: $md - 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 20px;
+        position: relative;
+        z-index: 999;
+        padding-bottom: 0;
+        .content {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            gap: 20px;
+            padding-inline: 10px;
+            h1 {
+                color: $dark-blue;
+                font-size: 43px;
+                text-transform: capitalize;
+            }
+            h2 {
+                color: $dark-blue;
+                font-size: 33px;
+                text-transform: capitalize;
+            }
+            p {
+                color: $gray;
+                font-size: 13px;
+                line-height: 1.5;
+            }
+            .btns {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                .btn-1 {
+                width: 45%;
+                     color: $dark-blue;
+                background-color: white;
+                        border: 2px solid $dark-blue;
+                        line-height: 2;
+                        text-align: center;
+                        border-radius: 20px;
+                        transition: all ease-in-out .8s;
+                        &:hover {
+                             width: 45%;
+                    background-color: $dark-blue;
+                    line-height: 2;
+                    text-align: center;
+                    color: white;
+                    border-radius: 20px;
+                        }
+            }
+        .btn-2 {
+            width: 45%;
+                    background-color: $dark-blue;
+                    line-height: 2;
+                    text-align: center;
+                    color: white;
+                    border-radius: 20px;
+                    transition: all ease-in-out .8s;
+                    &:hover {
+                        width: 45%;
+                     color: $dark-blue;
+                background-color: white;
+                        border: 2px solid $dark-blue;
+                        line-height: 2;
+                        text-align: center;
+                        border-radius: 20px;
+                    }
+        }
+            }
+        }
+        img {
+            width: 60%;
+        }
+    }
+    }
+}
+}
+
+@media (max-width: $md) {
+    #main-header {
+        .rectangle {
+            border-radius: 30%;
+            position: absolute;
+        }
+        .lg-yellow1 {
+            width: 300px;
+            height: 200px;
+            background-color: $light-yellow;
+            z-index: 2;
+            top: -130px;
+            left: 150px;
+            transform: rotate(30deg);
+        }
+        .lg-yellow2 {
+            width: 450px;
+            height: 450px;
+            background-color: $light-yellow;
+            z-index: 2;
+            top: 350px;
+            right: 200px;
+            transform: rotate(30deg);
+        }
+        .lg-blue {
+            width: 400px;
+            height: 400px;
+            background-color: $dark-blue;
+            z-index: 1;
+            top: 350px;
+            right: 270px;
+            transform: rotate(10deg);
+
+        }
+        .sm-blue {
+            width: 10px;
+            height: 10px;
+            background-color: $dark-blue;
+            top: 150px;
+            left: 340px;
+            transform: rotate(40deg);
+            z-index: 2;
+
+        }
+        .md-yellow {
+            width: 40px;
+            height: 40px;
+            background-color: $light-yellow;
+            top: 160px;
+            left: 63px;
+            transform: rotate(30deg);
+            display: none;
+        }
+        .sm-yellow {
+            width: 20px;
+            height: 20px;
+            background-color: $light-yellow;
+            transform: rotate(30deg);
+            top: 125px;
+            left: 505px;
+            z-index: 1;
+            display: none;
+        }
+        .very-sm-yellow {
+            width: 15px;
+            height: 15px;
+            background-color: $light-yellow;
+            top: 90px;
+            left: 530px;
+            transform: rotate(30deg);
+            display: none;
+        }
+         #hero {
+        .container {
+        width: $sm - 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 20px;
+        position: relative;
+        z-index: 999;
+        gap: 20px;
+        .content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            gap: 20px;
+            padding-inline: 130px;
+            h1 {
+                color: $dark-blue;
+                font-size: 23px;
+                text-transform: capitalize;
+            }
+            h2 {
+                color: $dark-blue;
+                font-size: 15px;
+                text-transform: capitalize;
+            }
+            p {
+                width: 100%;
+                color: $gray;
+                font-size: 8px;
+                line-height: 1.5;
+            }
+            .btns {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                .btn-1 {
+                width: 45%;
+                     color: $dark-blue;
+                background-color: white;
+                        border: 2px solid $dark-blue;
+                        line-height: 2;
+                        text-align: center;
+                        border-radius: 20px;
+                        transition: all ease-in-out .8s;
+                        &:hover {
+                             width: 45%;
+                    background-color: $dark-blue;
+                    line-height: 2;
+                    text-align: center;
+                    color: white;
+                    border-radius: 20px;
+                        }
+            }
+        .btn-2 {
+            width: 45%;
+                    background-color: $dark-blue;
+                    line-height: 2;
+                    text-align: center;
+                    color: white;
+                    border-radius: 20px;
+                    transition: all ease-in-out .8s;
+                    &:hover {
+                        width: 45%;
+                     color: $dark-blue;
+                background-color: white;
+                        border: 2px solid $dark-blue;
+                        line-height: 2;
+                        text-align: center;
+                        border-radius: 20px;
+                    }
+        }
+            }
+        }
+        img {
+            width: 60%;
+        }
+    }
+    }
+}
+}
+
+@media (max-width: $sm) {
+    #main-header {
+        .rectangle {
+            border-radius: 30%;
+            position: absolute;
+        }
+        .lg-yellow1 {
+            width: 200px;
+            height: 200px;
+            background-color: $light-yellow;
+            z-index: 2;
+            top: -140px;
+            left: 10px;
+            transform: rotate(30deg);
+        }
+        .lg-yellow2 {
+            width: 150px;
+            height: 150px;
+            background-color: $light-yellow;
+            z-index: 2;
+            top: 290px;
+            right: 50px;
+            transform: rotate(30deg);
+        }
+        .lg-blue {
+            width: 200px;
+            height: 200px;
+            background-color: $dark-blue;
+            z-index: 1;
+            top: 300px;
+            right: 50px;
+            transform: rotate(10deg);
+
+        }
+        .sm-blue {
+            width: 10px;
+            height: 10px;
+            background-color: $dark-blue;
+            top: 114px;
+            left: 130px;
+            transform: rotate(40deg);
+            z-index: 2;
+
+        }
+        .md-yellow {
+            width: 40px;
+            height: 40px;
+            background-color: $light-yellow;
+            top: 160px;
+            left: 63px;
+            transform: rotate(30deg);
+            display: none;
+        }
+        .sm-yellow {
+            width: 20px;
+            height: 20px;
+            background-color: $light-yellow;
+            transform: rotate(30deg);
+            top: 125px;
+            left: 505px;
+            z-index: 1;
+            display: none;
+        }
+        .very-sm-yellow {
+            width: 15px;
+            height: 15px;
+            background-color: $light-yellow;
+            top: 90px;
+            left: 530px;
+            transform: rotate(30deg);
+            display: none;
+        }
+         #hero {
+        .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 20px;
+        position: relative;
+        z-index: 999;
+        gap: 20px;
+        .content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            gap: 20px;
+            padding-inline: 10px;
+            h1 {
+                color: $dark-blue;
+                font-size: 15px;
+                text-transform: capitalize;
+            }
+            h2 {
+                color: $dark-blue;
+                font-size: 8px;
+                text-transform: capitalize;
+            }
+            p {
+                width: 100%;
+                color: $gray;
+                font-size: 7px;
+                line-height: 1.5;
+            }
+            .btns {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                font-size: 13px;
+                .btn-1 {
+                width: 45%;
+                     color: $dark-blue;
+                background-color: white;
+                        border: 2px solid $dark-blue;
+                        line-height: 2;
+                        text-align: center;
+                        border-radius: 20px;
+                        transition: all ease-in-out .8s;
+                        &:hover {
+                             width: 45%;
+                    background-color: $dark-blue;
+                    line-height: 2;
+                    text-align: center;
+                    color: white;
+                    border-radius: 20px;
+                        }
+            }
+        .btn-2 {
+            width: 45%;
+                    background-color: $dark-blue;
+                    line-height: 2;
+                    text-align: center;
+                    color: white;
+                    border-radius: 20px;
+                    transition: all ease-in-out .8s;
+                    &:hover {
+                        width: 45%;
+                     color: $dark-blue;
+                background-color: white;
+                        border: 2px solid $dark-blue;
+                        line-height: 2;
+                        text-align: center;
+                        border-radius: 20px;
+                    }
+        }
+            }
+        }
+        img {
+            width: 70%;
+        }
+    }
+    }
+}
+}
