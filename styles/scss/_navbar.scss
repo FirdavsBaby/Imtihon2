@@ -85,6 +85,7 @@
             aside.drop_down {
                             display: block;
                             z-index: 99999999;
+                            position: relative;
             .drop-links {
                 display: flex;
                 min-width: 300px;
@@ -206,6 +207,8 @@
             align-items: center;
             aside.drop_down {
                             display: block;
+                            z-index: 99999999;
+                            position: relative;
             .drop-links {
                 width: 50%;
                 display: flex;
