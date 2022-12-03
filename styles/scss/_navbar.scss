@@ -84,6 +84,7 @@
             align-items: center;
             aside.drop_down {
                             display: block;
+                            z-index: 99999999;
             .drop-links {
                 display: flex;
                 min-width: 300px;
