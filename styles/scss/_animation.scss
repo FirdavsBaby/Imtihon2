@@ -9,6 +9,7 @@
         background-color: inherit;
         z-index: 1;
         position: fixed;
+        overflow: hidden;
         animation: animate 3s 1 0s ease-in-out;
 
         .circle {

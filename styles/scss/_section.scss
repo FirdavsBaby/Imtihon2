@@ -2,6 +2,8 @@
 @media (max-width: $lg) {
     section#new .container {
         width: $md - 20px;
+        position: relative;  
+        z-index: 999999; 
         .about-new {
             display: flex;
             flex-direction: column;
@@ -166,6 +168,8 @@
 }
  section#product .container {
         width: $md - 20px;
+        position: relative;  
+        z-index: 999999; 
         .about-new {
             display: flex;
             flex-direction: column;
@@ -230,6 +234,8 @@
 }
 section#partners .container {
     width: $md - 20px;
+    position: relative;  
+        z-index: 999999; 
     .cards {
         width: 100%;
         display: flex;
@@ -386,6 +392,8 @@ section#partners .container {
 }
  section#knowledge .container {
         width: $md - 20px;
+        position: relative;  
+        z-index: 999999; 
         .about-new {
             display: flex;
             flex-direction: column;
@@ -458,6 +466,8 @@ section#partners .container {
 @media (max-width: $md) {
     section#new .container {
         width: $sm - 20px;
+        position: relative;  
+        z-index: 999999; 
         .about-new {
             display: flex;
             flex-direction: column;
@@ -746,6 +756,8 @@ section#partners .container {
         position: relative;
         overflow: hidden;
         flex-direction: row-reverse;
+        position: relative;  
+        z-index: 999999; 
         .rectangle {
             position: absolute;
             border-radius: 35%;
@@ -854,6 +866,8 @@ section#partners .container {
  section#knowledge .container {
         width: $sm - 20px;
         padding-inline: 20px;
+        position: relative;  
+        z-index: 999999; 
         .about-new {
             display: flex;
             flex-direction: column;
@@ -938,6 +952,8 @@ section#partners .container {
     section#new .container {
         width: 100%;
         padding-inline: 10px;
+        position: relative;  
+        z-index: 999999; 
         .about-new {
             display: flex;
             flex-direction: column;
@@ -1114,8 +1130,12 @@ section#partners .container {
 }
     section#product .container {
         width: 100%;
+        position: relative;  
+        z-index: 999999; 
         padding-inline: 10px;
         display: none;
+        position: relative;  
+        z-index: 999999; 
         .about-new {
             display: flex;
             flex-direction: column;
@@ -1185,6 +1205,8 @@ section#partners .container {
 section#partners .container {
     width: $md - 20px;
     display: none;
+    position: relative;  
+        z-index: 999999; 
     .cards {
         width: 100%;
         display: flex;
@@ -1225,6 +1247,8 @@ section#partners .container {
     }
             section#adoption {
         .container {
+            position: relative;  
+        z-index: 999999; 
             width: $md - 20px;
             display: none;
             background-color: $dark-yellow;
@@ -1343,6 +1367,8 @@ section#partners .container {
  section#knowledge .container {
         width: 100%;
         padding-inline: 20px;
+        position: relative;  
+        z-index: 999999; 
         .about-new {
             display: flex;
             flex-direction: column;
