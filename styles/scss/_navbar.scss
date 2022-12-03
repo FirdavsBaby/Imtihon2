@@ -82,10 +82,9 @@
             z-index: 9999;
             width: $sm - 20px;
             align-items: center;
+            z-index: 999999999999;
             aside.drop_down {
                             display: block;
-                            z-index: 99999999;
-                            position: relative;
             .drop-links {
                 display: flex;
                 min-width: 300px;
@@ -129,6 +128,7 @@
                     text-align: center;
                     line-height: 2;
                     border-radius: 20px;
+                    transition: all 0.8s ease-in-out;
                     &:hover {
                         background-color: white;
                         color: $light-yellow;
@@ -205,10 +205,9 @@
             padding-inline: 10px;
             z-index: 9999;
             align-items: center;
+            z-index: 999999999999;
             aside.drop_down {
                             display: block;
-                            z-index: 99999999;
-                            position: relative;
             .drop-links {
                 width: 50%;
                 display: flex;

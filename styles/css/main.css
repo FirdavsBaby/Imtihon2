@@ -191,6 +191,7 @@ img {
     z-index: 9999;
     width: 560px;
     align-items: center;
+    z-index: 999999999999;
   }
   #main-header .container aside.drop_down {
     display: block;
@@ -239,6 +240,7 @@ img {
     text-align: center;
     line-height: 2;
     border-radius: 20px;
+    transition: all 0.8s ease-in-out;
   }
   #main-header .container aside.drop_down .drop-links .drop-dw-search .search-btn:hover {
     background-color: white;
@@ -302,6 +304,7 @@ img {
     padding-inline: 10px;
     z-index: 9999;
     align-items: center;
+    z-index: 999999999999;
   }
   #main-header .container aside.drop_down {
     display: block;
