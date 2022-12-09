@@ -9,9 +9,12 @@
             align-items: center;
             font-size: 15px;
             position: relative;
-            z-index: 999;
-            img {
+            z-index: 99999999999999;
+            a {
                 width: 10%;
+                img {
+                width: 100%;
+            }
             }
             .drop_down {
                 display: none;
